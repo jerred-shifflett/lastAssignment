@@ -18,6 +18,3 @@ class TestCalculatorApp:
 
     def test_divide(self):
         assert 0 == calculator.divide(10, 0)
-
-    def test_fail(self):
-        assert 0 == calculator.error(10, 80)
